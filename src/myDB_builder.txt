@@ -1,0 +1,13 @@
+/* Lab 4 Assignment */
+/* Schema Design */
+
+/* Name */
+/* Add Your Name Here */
+
+/* GitHub Account Name */
+/* Add Your Account Name Here */
+
+/* Submission Date */
+/* Date: 18 April 2022 */
+
+/* A database builder file; edit as necessary */
