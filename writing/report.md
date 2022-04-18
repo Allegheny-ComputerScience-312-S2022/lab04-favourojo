@@ -6,10 +6,11 @@ Please add your responses to this file.
 #### Schema Design
 
 #### Name
-Add Your Name Here
+Favour Ojo
+
 
 #### GitHub Account Name
-Add Your Account Name Here
+favourojo
 
 #### Submission Date
 18 April 2022
