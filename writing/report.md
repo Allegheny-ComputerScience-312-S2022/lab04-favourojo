@@ -24,7 +24,7 @@ Please answer the following questions using **clear and meaningful language**. I
  - Describe the general functionality of your database. What is the database _supposed_ to do?
 
  ```
- TODO
+ This database shows Amazon top 100 best sellers in electronics in 2021. With this, users can see which electronics can be the most suitable for them based on ratings.
 
  ```
 
@@ -33,7 +33,7 @@ Please answer the following questions using **clear and meaningful language**. I
   - Explain your data: give the reference (or hyperlink) and discuss the purpose of the dataset. For instance, what is this data set? How was it collected? What information does it contain? What kind of trust can be placed in this dataset?
 
 	```
-	TODO
+	This data set's information can deprived from Amazon.com, Inc which is an American multinational technology company. They focus on e-commerce, cloud computing, digital streaming, and artificial intelligence. This dataset consists of the date in which each electronic was prominent, the number in rating, product name, rating, number of reviews, price.
 
 	```
 
