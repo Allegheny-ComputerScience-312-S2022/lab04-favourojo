@@ -2,12 +2,18 @@
 /* Schema Design */
 
 /* Name */
-/* Add Your Name Here */
+/* Favour Ojo */
 
 /* GitHub Account Name */
-/* Add Your Account Name Here */
+/* favourojo */
 
 /* Submission Date */
 /* Date: 18 April 2022 */
 
 /* A database builder file; edit as necessary */
+
+/*Usage: cat myDB_builder.txt | sqlite3 myDB.sqlite3
+*/
+
+/* Enable foreign keys: automatically check any foreign key constraints */
+PRAGMA foreign_keys = ON; /* Enable foreign keys */

@@ -1,0 +1,10 @@
+1,39, Never-married,  Not-in-family, White, Male, United-States, <=50K
+2,50, Married-civ-spouse,  Husband, White, Male, United-States, <=50K
+3,38, Divorced, Not-in-family, White, Male, United-States, <=50K
+4,53, Married-civ-spouse, Husband, Black, Male, United-States, <=50K
+5,28, Married-civ-spouse, Wife, Black, Female, Cuba, <=50K
+6,37, Married-civ-spouse, Wife, White, Female, United-States, <=50K
+7,49, Married-spouse-absent, Not-in-family, Black, Female, Jamaica, <=50K
+8,52, Married-civ-spouse, Husband, White, Male, United-States, >50K
+9,31, Never-married, Not-in-family, White, Female, United-States, >50K
+10,42, Married-civ-spouse, Husband, White, Male, United-States, >50K

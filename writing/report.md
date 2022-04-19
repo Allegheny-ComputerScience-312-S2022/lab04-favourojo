@@ -24,7 +24,7 @@ Please answer the following questions using **clear and meaningful language**. I
  - Describe the general functionality of your database. What is the database _supposed_ to do?
 
  ```
- This database shows Amazon top 100 best sellers in electronics in 2021. With this, users can see which electronics can be the most suitable for them based on ratings.
+ This database shows classification on salary whether less than 50K or greater than 50K.
 
  ```
 
@@ -33,7 +33,9 @@ Please answer the following questions using **clear and meaningful language**. I
   - Explain your data: give the reference (or hyperlink) and discuss the purpose of the dataset. For instance, what is this data set? How was it collected? What information does it contain? What kind of trust can be placed in this dataset?
 
 	```
-	This data set's information can deprived from Amazon.com, Inc which is an American multinational technology company. They focus on e-commerce, cloud computing, digital streaming, and artificial intelligence. This dataset consists of the date in which each electronic was prominent, the number in rating, product name, rating, number of reviews, price.
+	[Reference](https://www.kaggle.com/datasets/ayessa/salary-prediction-classification)
+
+  This dataset is a prediction task to determine whether a person makes over 50k a year. Some of the factors spoke about is age, workclass, education, marital-status, occupation, etc,. The extraction of this data set was done by Barry Becker from the 1994 Census database.
 
 	```
 
@@ -41,7 +43,7 @@ Please answer the following questions using **clear and meaningful language**. I
 - Describe your database at the _View Schema_ level. How will users interact with the database? If the database were scaled-up to handle a larger set of data or more users, how would the _View Schema_ change if at all? Explain your thinking.
 
  ```
- TODO
+In the View Schema level, users will be able to see how the factors of each individual affects whether they make over or under 50K. With this, users will be able to make their own hypothesis about the database..
 
  ```
 
@@ -49,7 +51,7 @@ Please answer the following questions using **clear and meaningful language**. I
 - Describe your database at the _Logical Schema_ level. Discuss the tables, attributes and the relationships that exist them and the other parts of the database.
 
  ```
- TODO
+ The tables each represent a significant part of the data set. The table Person describes the important characteristics of the individuals that were surveyed. With this table, an argument can be made that these certain characteristics that each individual has affects the salary that they are making. A connection can be made between all three tables because each table has an attribute that could potentially have an influence on the affect of salary. The table Work shows the type of jobs each individual in the Person table has and how much time is committed to said job. Lastly, the Education tables shows the type of education each individual has and how long they were in school.
 
  ```
 
@@ -57,7 +59,7 @@ Please answer the following questions using **clear and meaningful language**. I
 #### 5)
  - Describe your database at the _Internal Schema_ level. What hardware is necessary to run this database? How would the schema change for a larger application of this database?
 	```
-	TODO
+	To run this this database, I believe a lot of memory is necessary.
 
 	```
 

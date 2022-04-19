@@ -1,0 +1,68 @@
+/* Lab 4 Assignment */
+/* Schema Design */
+
+/* Name */
+/* Favour Ojo */
+
+/* GitHub Account Name */
+/* favourojo */
+
+/* Submission Date */
+/* Date: 18 April 2022 */
+
+/* A database builder file; edit as necessary */
+
+/*Usage: cat SalaryDB_builder.txt | sqlite3 SalaryDB.sqlite3
+*/
+
+/* Enable foreign keys: automatically check any foreign key constraints */
+PRAGMA foreign_keys = ON; /* Enable foreign keys */
+
+drop table Person;
+create table Person(
+ id   NUMERIC NOT NULL,
+ age  NUMERIC NOT NULL,
+ maritalStatus VARCHAR NOT NULL,
+ relationship VARCHAR NOT NULL,
+ race VARCHAR NOT NULL,
+ sex VARCHAR NOT NULL,
+ nativeCountry VARCHAR NOT NULL,
+ salary VARCHAR NOT NULL
+);
+
+drop table Work;
+create table Work(
+id NUMERIC NOT NULL,
+workclass VARCHAR NOT NULL,
+occupation VARCHAR NOT NULL,
+hoursPerWeek NUMERIC NOT NULL
+
+);
+
+
+drop table Education;
+create table Education(
+id NUMERIC NOT NULL,
+education VARCHAR NOT NULL,
+educationNum NUMERIC NOT NULL
+);
+
+.separator ","
+
+.import data/person.csv Person
+.import data/work.csv Work
+.import data/education.csv Education
+
+
+
+
+
+
+
+
+
+
+
+/* Import the data files.*/
+
+.import data/uniprot_n_protein.tab nprot
