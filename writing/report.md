@@ -79,20 +79,20 @@ In the View Schema level, users will be able to see how the factors of each indi
   - Question
 
  	```
- 	How many white individuals make less than 50K in salary?
+ 	How many white people earn more less than or exactly 50K
  	```
 
   - Query
 
  	```
- 	TODO
+  SELECT COUNT(Person.race) FROM Person WHERE race == " White" AND salary == " <=50K";
 
  	```
 
   - Result
 
  	```
- 	TODO
+ 	4
 
  	```
 
@@ -104,21 +104,21 @@ In the View Schema level, users will be able to see how the factors of each indi
  - Question
 
 	```
-	TODO
+	How many individuals work 40 hours work weeks?
 
 	```
 
  - Query
 
 	```
-	TODO
+	SELECT COUNT(Work.hoursPerWeek) FROM Work WHERE hoursPerWeek == 40;
 
 	```
 
  - Result
 
 	```
-	TODO
+	6
 
 	```
 
@@ -169,7 +169,7 @@ I believe the information contained in table Person would not be smart to hold t
  - Describe the most ideal way for a typical user to interact with this database. For instance, what kinds of skills and hardware would be necessary for the hospital staff to use the system?
 
  ```
- The type of skills an individual would need to possess to be able to interact with this database is first, a simple understanding of what SQLite is.
+ The type of skills an individual would need to possess to be able to interact with this database is first, a simple understanding of what SQLite is. Without understanding SQLite, it would be difficult to conduct analysis on the program and create queries. A suitable machine that will be able to download SQLite will be what is a necessary when it comes to hardware.
 
  ```
 
@@ -179,7 +179,7 @@ I believe the information contained in table Person would not be smart to hold t
   - You have been told that all medical information is available to all users of the database, regardless of a user's role in the hospital. Is this a "feature" or a "flaw" in the design of the system? With this knowledge of general database use, what changes would you make to the system (if any) to fix this issue? Explain your thinking.
 
   ```
-  TODO
+  I believe this is a flaw in the design of the system. It would be unethical for everyone in the hospital to have access to all the users of the database without the user's knowledge. I feel the best way to still have privacy is by adding a username and password to the system for those who need it. The information will still be available, but there was something protecting that data.
 
   ```
 
