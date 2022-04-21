@@ -59,7 +59,7 @@ In the View Schema level, users will be able to see how the factors of each indi
 #### 5)
  - Describe your database at the _Internal Schema_ level. What hardware is necessary to run this database? How would the schema change for a larger application of this database?
 	```
-	To run this this database, I believe a lot of memory is necessary.
+	To run this this database, I believe a lot of memory is necessary. The actual data, without splitting it into 3 tables and condensing it, is very large and something that allows for a good amount of storage is needed for this type of data set. I believe any kind of machine would be sufficient to run this database. Only thing that would be needed to be downloaded would be SQLite and that is an easy download for all machines.
 
 	```
 
@@ -68,7 +68,7 @@ In the View Schema level, users will be able to see how the factors of each indi
  - Archival: Discuss how the data will be physically stored? What are the imitations of this storage system?
 
  ```
- TODO
+ I believe the best way to store this data would be by a hard drive. A hard drive is a very dependable piece of data storage and it can hold a huge amount of data that is needed.
 
  ```
 
@@ -79,8 +79,7 @@ In the View Schema level, users will be able to see how the factors of each indi
   - Question
 
  	```
- 	TODO
-
+ 	How many white individuals make less than 50K in salary?
  	```
 
   - Query
@@ -135,7 +134,7 @@ Imagine that your database schema was adopted by a hospital to be used as a syst
 Explain how easily it would be to add medical data to your current schema to create a functioning database. How could this medical data be fitted into your established schema? What problems would exist?
 
 ```
-TODO
+I believe it would be virtually pretty easy to add medical data to my current schema. I already have created a table that shows the characteristics of an individual, which I believe can be very helpful for a hospital because in a hospital, they always record your medical records. For instance, they always record your height, weight, race, sex, etc,. Some of those factors I already have in my own table.
 
 ```
 
@@ -144,7 +143,7 @@ TODO
  - Imagine that your database was successfully readapted to manage the hospital's medical records data (and is currently being used thanks to a few modifications). What is one of the largest concerns of privacy or security that you could imagine if the exact _logical schema_ was known by malicious users. Explain your thinking.
 
  ```
- TODO
+ Inside the data I was able to extract, there are certain attributes that could release someone's personal information. That would be my biggest concern with this database. It could be very dangerous if malicious users have possession of this kind of individuals' information.
 
  ```
 
@@ -152,7 +151,7 @@ TODO
  - Concerning the _view schema_ or _physical schema_ levels of the database, What security concerns for the data would become apparent if either of these levels were to become public knowledge?
 
 ```
-TODO
+The biggest security for the view schema level would be the basis of the information would be instantly viewable. In the view schema, all the different attributes are revealed. A malicious user could easily see if they are interested in seeing this information that is available from this data set. In the physical schema, the way to download this data set and the hardware that is needed to run this database.
 
 ```
 
@@ -161,7 +160,7 @@ TODO
 - What kinds of data in this medical database would be best **not** to hold to prevent trouble in the event of a breach? Explain your thinking.
 
 ```
-TODO
+I believe the information contained in table Person would not be smart to hold to prevent trouble. Without this information, it makes the combined data set very confusing and no hypothesis can really be made when that information is missing.
 
 ```
 
@@ -170,7 +169,7 @@ TODO
  - Describe the most ideal way for a typical user to interact with this database. For instance, what kinds of skills and hardware would be necessary for the hospital staff to use the system?
 
  ```
- TODO
+ The type of skills an individual would need to possess to be able to interact with this database is first, a simple understanding of what SQLite is.
 
  ```
 

@@ -52,17 +52,3 @@ educationNum NUMERIC NOT NULL
 .import data/person.csv Person
 .import data/work.csv Work
 .import data/education.csv Education
-
-
-
-
-
-
-
-
-
-
-
-/* Import the data files.*/
-
-.import data/uniprot_n_protein.tab nprot
